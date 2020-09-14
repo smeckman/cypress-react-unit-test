@@ -1,5 +1,5 @@
 {
-  "testFiles": "**/*.spec.js",
+  "testFiles": "**/*.spec.{js,jsx}",
   "viewportWidth": 500,
   "viewportHeight": 800,
   "experimentalComponentTesting": true,
