@@ -94,7 +94,7 @@ workflows:
           install-command: npm install
           verify-command: echo 'Already verified'
           no-workspace: true
-          working_directory: examples/next
+          working_directory: examples/nextjs
           command: npm test
           store_artifacts: true
           post-steps:
