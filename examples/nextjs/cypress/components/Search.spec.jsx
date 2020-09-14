@@ -10,6 +10,7 @@ describe('<Search /> NextJS component', () => {
     mount(<Search />, { ReactDom })
 
     cy.get('input').type('124152')
+    cy.contains('.search-text', '124152').should('be.visible')
   })
 
   it('Renders mdx component using  custom next.config.js', () => {

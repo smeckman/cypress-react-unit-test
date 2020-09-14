@@ -10,6 +10,8 @@ export function Search() {
         onChange={e => setValue(e.currentTarget.value)}
       />
 
+      <p className="search-text">You are searching for: {value}</p>
+
       <style jsx>{`
         input {
           border-radius: 20px;
