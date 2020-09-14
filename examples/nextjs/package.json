@@ -7,8 +7,11 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "cy": "start-test dev 3000 cy:open",
     "cy:open": "../../node_modules/.bin/cypress open",
-    "build:static": "next build && next out"
+    "build:static": "next build && next out",
+    "check-coverage": "echo no code coverage yet",
+    "only-covered": "echo no code coverage yet"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.16",
@@ -20,6 +23,7 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "cypress-react-unit-test": "file:../.."
+    "cypress-react-unit-test": "file:../..",
+    "start-server-and-test": "1.11.3"
   }
 }
