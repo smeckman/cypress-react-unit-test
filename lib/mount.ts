@@ -69,6 +69,8 @@ export const mount = (jsx: React.ReactElement, options: MountOptions = {}) => {
       const document = cy.state('document') as Document
       const reactDomToUse = options.ReactDom || ReactDOM
 
+      console.log(options.ReactDom, ReactDOM)
+
       const el = document.getElementById(rootId)
 
       if (!el) {
