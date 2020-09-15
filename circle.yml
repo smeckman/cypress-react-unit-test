@@ -91,7 +91,7 @@ workflows:
             - Install
           executor: cypress/base-12
           # each example installs "cypress-react-unit-test" as a local dependency (symlink)
-          install-command: npm install && cd examples/nextjs && npm install
+          install-command: npm install
           verify-command: echo 'Already verified'
           no-workspace: true
           working_directory: examples/nextjs
