@@ -136,7 +136,6 @@
     "find-webpack": "2.0.0",
     "i18next": "19.7.0",
     "mime-types": "2.1.26",
-    "next": "9.5.3",
     "react-i18next": "11.7.2",
     "unfetch": "4.1.0"
   },
