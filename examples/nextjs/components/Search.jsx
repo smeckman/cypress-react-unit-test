@@ -17,7 +17,8 @@ export function Search() {
           border-radius: 20px;
         }
         div {
-          background: red;
+          padding: 16px;
+          background: tomato;
         }
       `}</style>
     </div>

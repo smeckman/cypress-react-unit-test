@@ -13,17 +13,7 @@
     "check-coverage": "echo no code coverage yet",
     "only-covered": "echo no code coverage yet"
   },
-  "dependencies": {
-    "@mdx-js/loader": "^1.6.16",
-    "@next/mdx": "^9.5.3",
-    "@zeit/next-sass": "^1.0.1",
-    "next": "^9.5.3",
-    "node-sass": "^4.14.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
   "devDependencies": {
-    "cypress-react-unit-test": "file:../..",
-    "start-server-and-test": "1.11.3"
+    "cypress-react-unit-test": "file:../.."
   }
 }

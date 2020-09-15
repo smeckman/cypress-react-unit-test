@@ -6,7 +6,7 @@ import { Search } from '../../components/Search'
 import HelloWorld from '../../components/HelloWorld.mdx'
 
 describe('<Search /> NextJS component', () => {
-  it.only('Renders component', () => {
+  it('Renders component', () => {
     mount(<Search />, { ReactDom })
 
     cy.get('input').type('124152')
