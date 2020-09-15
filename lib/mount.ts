@@ -189,6 +189,7 @@ export const unmount = () => {
 export const createMount = (defaultOptions: MountOptions) => (
   element: React.ReactElement,
   options?: MountOptions,
+  options: MountOptions,
 ) => mount(element, { ...defaultOptions, ...options })
 
 /** @deprecated Should be removed in the next major version */
