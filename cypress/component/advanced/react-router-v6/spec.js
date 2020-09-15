@@ -1,4 +1,3 @@
-// example comes from https://github.com/ReactTraining/react-router/blob/dev/docs/guides/getting-started.md
 /// <reference types="cypress" />
 import React from 'react'
 import { mount } from 'cypress-react-unit-test'
